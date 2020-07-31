@@ -1,0 +1,6 @@
+<p>
+  <button (click)="getData()">Go</button>
+</p>
+
+<div *ngIf="res">{{ res | json }}</div>
+<div *ngIf="err">{{ err | json }}</div>
